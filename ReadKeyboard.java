@@ -27,6 +27,10 @@ public class ReadKeyboard{
 		int z = x+y;
 		System.out.println("sum of two number is: "+z);
 
+		System.out.println("use Radix");
+		sc.useRadix(2);
+		int a = sc.nextInt();
+		System.out.println(a);
 
 		
 	}
