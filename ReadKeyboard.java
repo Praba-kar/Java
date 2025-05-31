@@ -26,6 +26,8 @@ public class ReadKeyboard{
 		
 		int z = x+y;
 		System.out.println("sum is: "+z);
+
+
 		
 	}
 }
