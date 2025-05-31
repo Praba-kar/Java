@@ -13,9 +13,19 @@ public class ReadKeyboard{
 		String word = sc.next();
 		System.out.println(word);
 
+		sc.nextLine();
+
 		System.out.println("enter the scentence");
 		String sent = sc.nextLine();
 		System.out.println(sent);
+
+		int x,y;
+		System.out.println("enter two numbers");
+		x=sc.nextInt();
+		y=sc.nextInt();
+		
+		int z = x+y;
+		System.out.println("sum is: "+z);
 		
 	}
 }
